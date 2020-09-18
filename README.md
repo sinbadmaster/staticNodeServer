@@ -1,0 +1,2 @@
+# staticNodeServer
+一个原生nodejs的简单静态资源服务
