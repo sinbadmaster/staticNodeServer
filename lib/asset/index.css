@@ -1,0 +1,11 @@
+/* body {
+  background-color: rgba(0, 238, 255, 0.466);
+} */
+
+body[theme=dark] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body[theme=dark] img {
+  filter: invert(1) hue-rotate(180deg);
+}

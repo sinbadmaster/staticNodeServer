@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="Cache-control" content="max-age=10"> -->
+  <!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+  <!-- <meta http-equiv="Expires" content="Wed, 16 Sep 2020 07:01:59 GMT" /> -->
+  <!-- <meta http-equiv="Cache" content="no-cache"> -->
+  <link rel="stylesheet" href="./asset/index.css">
+  <title>Document</title>
+  <style>
+    .wrapper {
+      background-color: #e2e2e2;
+    }
+    .box {
+      background-color: azure;
+    }
+    span {
+      color: rgba(148, 63, 228, 0.74);
+    }
+    .box p {
+      color: rgb(135, 235, 36);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 id="hello">hello world</h1>
+    <p class="pro">这是一段话</p>
+    <div class="box">
+      <p><span>有颜色</span>没有特别的颜色</p>
+    </div>
+    <img src="./asset/img/850x10000.jpg" alt="" srcset="">
+  </div>
+</body>
+<script>
+  let flag = true;
+  hello.onclick = function () {
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('DELETE', 'http://localhost:3000/api/get');
+    // xhr.setRequestHeader('token', 'sssss');
+    // xhr.send('a=1&b=2&c=1');
+    // xhr.onload = (data) => {
+    //   console.log(data)
+    // }
+    flag = !flag;
+    document.body.setAttribute('theme', flag ? 'dark' : 'white');
+  }
+</script>
+</html>
