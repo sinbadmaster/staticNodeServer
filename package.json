@@ -1,7 +1,7 @@
 {
-  "name": "static-node-server",
+  "name": "easy-node-static",
   "version": "1.0.0",
-  "description": "node server",
+  "description": "node static server",
   "main": "lib/server.js",
   "directories": {
     "lib": "lib"
@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "nodemon lib/server.js",
+    "prod": "node bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
